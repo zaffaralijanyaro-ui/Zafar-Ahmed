@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY PORTOFOLIO</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Zafar Ali's Portfolio</h1>
+        <div class="Heading">
+         <h1>Zafar Ali's Portfolio</h1></div>
         <hr>
-        <nav>
+        <div class="navs">
             <a href="/">Home </a>  |
-            <a href="Contacts.html">Contacts</a>   |
-            <a href="Projects.html">Projects</a>
-            <hr>
-        </nav>
-    </header>
-    <main>
-        <Section>
-        <h2>About me!</h2>
-        <img src="/ZAFAR'S PICTURE.jpg" alt="a person's image named Zafar Ali" heigh="100" width="150">
-        <p>Web developer</p>
-        <p>I'm a student of PEOPLE INFORMATION TECHNOLOGY PROGRAM, currently enrolled in WEB DEVELOPMENT in MUET. This portfolio showcases my project in Html</p>
+            <a href="/Contacts.html">Contacts</a>   |
+            <a href="/Projects.html">Projects</a></div>
+        <hr>
+        <div id="img">
+        <img src="/Zafar's new img.png" alt="a person named ZAFAR AHMED" height="200" width="200"></div>
+        <hr>
+        <p class="myId">Web developer</p>
+        <p class="myId">I'm a student of PEOPLE INFORMATION TECHNOLOGY PROGRAM, currently enrolled in WEB DEVELOPMENT in MUET. This portfolio showcases my project in Html</p>
         </Section>
         <hr>
         <label for="HTML"></label>
@@ -32,6 +31,7 @@
         <br>
         <label for="HTML"></label>
         <input type="checkbox" name="JAVASCRIPT" value="JAVASCRIPT" id="152">JAVASCRIPT
+        <hr>
         <h2>MY SKILLS (week 1 focusing on HTML)</h2>
         <table border="1">
             <thead>
@@ -57,6 +57,7 @@
         </table>
         <hr>
     </main>
+    <div class="footer">
     <footer>
         <p>
             Email: <a href="mailto:zaffaralijanyaro@gmail.com">zaffaralijanyaro@gmail.com</a>
@@ -65,5 +66,6 @@
             Copy Right 2025 |All Rights Reserved | Zafar Ali Janyaro
         </p>
     </footer>
+    </div>
 </body>
 </html>

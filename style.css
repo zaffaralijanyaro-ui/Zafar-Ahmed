@@ -1,0 +1,45 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+}
+.Heading{
+    background-color: bisque;
+    height: 80px;
+    text-align: center;
+}
+.Heading:hover{
+    cursor: pointer;
+}
+.navs{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    background-color: rgb(124, 124, 164);
+}
+#img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+}
+.myProjects{
+    background-color: rgb(165, 228, 154);
+}
+.myId{
+    text-align: center;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(69, 66, 66);
+
+}
